@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetail Component CustomerDetail: Snapshot testing 1`] = `
+<div
+  className="p-2 text-sm w-2/5"
+>
+  <div>
+    Mr
+     
+    test value
+  </div>
+  <div>
+    Contact No : 
+    123-456-789
+  </div>
+  <div>
+    Email Address: 
+    test.value@test.com
+  </div>
+  <div>
+    Address: 
+    test Address
+  </div>
+</div>
+`;

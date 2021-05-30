@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Testing Select: Snapshot testing 1`] = `
+<select
+  className="py-2 px-4 focus:ring-blue-600 focus:border-blue-500 outline-none block w-full sm:text-sm border border-indigo-100 rounded-md"
+  onChange={[MockFunction]}
+  value=""
+>
+  <option
+    key="0"
+    value="{\\"name\\":\\"one\\",\\"value\\":\\"one\\"}"
+  >
+    one
+  </option>
+  <option
+    key="1"
+    value="{\\"name\\":\\"two\\",\\"value\\":\\"two\\"}"
+  >
+    two
+  </option>
+</select>
+`;
+
+exports[`Select Testing Select: Snapshot testing without nameProps 1`] = `
+<select
+  className="py-2 px-4 focus:ring-blue-600 focus:border-blue-500 outline-none block w-full sm:text-sm border border-indigo-100 rounded-md"
+  onChange={[MockFunction]}
+  value=""
+>
+  <option
+    key="0"
+    value="{\\"name\\":\\"one\\",\\"value\\":\\"one\\"}"
+  >
+    one
+  </option>
+  <option
+    key="1"
+    value="{\\"name\\":\\"two\\",\\"value\\":\\"two\\"}"
+  >
+    two
+  </option>
+</select>
+`;

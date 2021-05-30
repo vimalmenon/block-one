@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component Button: Snapshot testing Primary Type 1`] = `
+<button
+  className="px-4 py-2 text-white focus:outline-none rounded-md bg-blue-500"
+  disabled={false}
+  onClick={[Function]}
+/>
+`;
+
+exports[`Button Component Button: Snapshot testing Secondary Type 1`] = `
+<button
+  className="px-4 py-2 text-white focus:outline-none rounded-md bg-yellow-500"
+  disabled={false}
+  onClick={[Function]}
+/>
+`;
+
+exports[`Button Component Button: Snapshot testing disabled 1`] = `
+<button
+  className="px-4 py-2 text-white focus:outline-none rounded-md bg-gray-600"
+  disabled={true}
+  onClick={[Function]}
+/>
+`;

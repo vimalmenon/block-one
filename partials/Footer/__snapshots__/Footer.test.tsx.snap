@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Partials Footer : Snapshot testing 1`] = `
+<footer
+  className="text-xs p-3 text-blue-700"
+>
+  Fictitious Bank (FB) © 2021 All Rights Reserved
+</footer>
+`;

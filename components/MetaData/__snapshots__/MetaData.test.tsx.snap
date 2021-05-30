@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MetaData Component MetaData: Snapshot testing with title 1`] = `
+<Head>
+  <title>
+    title
+  </title>
+  <meta
+    content="This is fictitious bank application"
+    name="description"
+  />
+</Head>
+`;
+
+exports[`MetaData Component MetaData: Snapshot testing with title and Description 1`] = `
+<Head>
+  <title>
+    title
+  </title>
+  <meta
+    content="description"
+    name="description"
+  />
+</Head>
+`;

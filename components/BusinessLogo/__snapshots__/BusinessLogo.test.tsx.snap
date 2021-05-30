@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BusinessLogo Component BusinessLogo: Snapshot testing 1`] = `
+<div
+  className="flex w-48 flex-col"
+>
+  <div
+    className="text-5xl self-center font-bold text-blue-700"
+  >
+    FB
+  </div>
+  <div
+    className="text-sm self-center text-yellow-500"
+  >
+    Fictitious Bank
+  </div>
+</div>
+`;

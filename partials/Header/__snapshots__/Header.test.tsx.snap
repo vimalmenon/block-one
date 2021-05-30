@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Partials Header : Snapshot testing with customer 1`] = `
+<header
+  className="flex h-28 items-center"
+>
+  <BusinessLogo />
+  <div
+    className="flex flex-grow self-center justify-between text-gray-700 font-semibold"
+  >
+    <div />
+    <CustomerDetail
+      customer={
+        Object {
+          "address": "test Address",
+          "contactNo": "123-456-789",
+          "customerId": 12345,
+          "emailAddress": "test.value@test.com",
+          "name": "test value",
+          "prefix": "Mr",
+        }
+      }
+    />
+  </div>
+</header>
+`;
+
+exports[`Header Partials Header : Snapshot testing without customer 1`] = `
+<header
+  className="flex h-28 items-center"
+>
+  <BusinessLogo />
+  <div
+    className="flex flex-grow self-center justify-center text-red-600"
+  />
+</header>
+`;

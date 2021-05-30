@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component Input: Snapshot testing 1`] = `
+<input
+  className="py-2 px-4 block w-full sm:text-sm border rounded-md outline-none focus:border-blue-500 border-blue-100 focus:ring-blue-500"
+  value="testing"
+/>
+`;
+
+exports[`Input Component Input: Snapshot testing with No input value 1`] = `
+<input
+  className="py-2 px-4 block w-full sm:text-sm border rounded-md outline-none border-red-200 focus:border-red-500 focus:ring-red-500"
+  value=""
+/>
+`;
+
+exports[`Input Component Input: Snapshot testing with error 1`] = `
+<input
+  className="py-2 px-4 block w-full sm:text-sm border rounded-md outline-none border-red-200 focus:border-red-500 focus:ring-red-500"
+  value="testing"
+/>
+`;

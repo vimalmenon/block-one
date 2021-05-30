@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table Component Table: Snapshot testing with Footer 1`] = `
+<table
+  className="w-full rounded"
+>
+  <thead>
+    <tr
+      className="bg-blue-500 text-white"
+    >
+      <th
+        className="text-left p-2 font-medium"
+        key="0"
+      >
+        Column 1
+      </th>
+      <th
+        className="text-left p-2 font-medium"
+        key="1"
+      >
+        Column 2
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="text-gray-600 bg-gray-50"
+      key="0"
+      onClick={[Function]}
+    >
+      <TableRow
+        column={
+          Object {
+            "accessor": "one",
+            "header": "Column 1",
+            "templete": [Function],
+          }
+        }
+        index={0}
+        item={
+          Object {
+            "one": 1,
+            "two": "First Row",
+          }
+        }
+        key="0"
+      />
+      <TableRow
+        column={
+          Object {
+            "accessor": "two",
+            "header": "Column 2",
+          }
+        }
+        index={0}
+        item={
+          Object {
+            "one": 1,
+            "two": "First Row",
+          }
+        }
+        key="1"
+      />
+    </tr>
+    <tr
+      className="text-gray-600 bg-blue-50"
+      key="1"
+      onClick={[Function]}
+    >
+      <TableRow
+        column={
+          Object {
+            "accessor": "one",
+            "header": "Column 1",
+            "templete": [Function],
+          }
+        }
+        index={1}
+        item={
+          Object {
+            "one": 2,
+            "two": "Second Row",
+          }
+        }
+        key="0"
+      />
+      <TableRow
+        column={
+          Object {
+            "accessor": "two",
+            "header": "Column 2",
+          }
+        }
+        index={1}
+        item={
+          Object {
+            "one": 2,
+            "two": "Second Row",
+          }
+        }
+        key="1"
+      />
+    </tr>
+  </tbody>
+  <TableFooter
+    footers={
+      Array [
+        Object {
+          "colSpan": 2,
+          "value": "This is footer 1",
+        },
+        Object {
+          "value": "This is footer 2",
+        },
+      ]
+    }
+  />
+</table>
+`;
+
+exports[`Table Component Table: Snapshot testing without Footer 1`] = `
+<table
+  className="w-full rounded"
+>
+  <thead>
+    <tr
+      className="bg-blue-500 text-white"
+    >
+      <th
+        className="text-left p-2 font-medium"
+        key="0"
+      >
+        Column 1
+      </th>
+      <th
+        className="text-left p-2 font-medium"
+        key="1"
+      >
+        Column 2
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="text-gray-600 bg-gray-50"
+      key="0"
+      onClick={[Function]}
+    >
+      <TableRow
+        column={
+          Object {
+            "accessor": "one",
+            "header": "Column 1",
+            "templete": [Function],
+          }
+        }
+        index={0}
+        item={
+          Object {
+            "one": 1,
+            "two": "First Row",
+          }
+        }
+        key="0"
+      />
+      <TableRow
+        column={
+          Object {
+            "accessor": "two",
+            "header": "Column 2",
+          }
+        }
+        index={0}
+        item={
+          Object {
+            "one": 1,
+            "two": "First Row",
+          }
+        }
+        key="1"
+      />
+    </tr>
+    <tr
+      className="text-gray-600 bg-blue-50"
+      key="1"
+      onClick={[Function]}
+    >
+      <TableRow
+        column={
+          Object {
+            "accessor": "one",
+            "header": "Column 1",
+            "templete": [Function],
+          }
+        }
+        index={1}
+        item={
+          Object {
+            "one": 2,
+            "two": "Second Row",
+          }
+        }
+        key="0"
+      />
+      <TableRow
+        column={
+          Object {
+            "accessor": "two",
+            "header": "Column 2",
+          }
+        }
+        index={1}
+        item={
+          Object {
+            "one": 2,
+            "two": "Second Row",
+          }
+        }
+        key="1"
+      />
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table Component TableFooter: Snapshot Testing 1`] = `
+<tfoot>
+  <tr
+    className="bg-gray-500 text-white"
+  >
+    <td
+      className="p-2"
+      colSpan={2}
+      key="0"
+    >
+      This is footer 1
+    </td>
+    <td
+      className="p-2"
+      colSpan={1}
+      key="1"
+    >
+      This is footer 2
+    </td>
+  </tr>
+</tfoot>
+`;
+
+exports[`Table Component TableRow: Snapshot Testing with template 1`] = `
+<td
+  className="p-2"
+>
+  2
+</td>
+`;
+
+exports[`Table Component TableRow: Snapshot Testing without template 1`] = `
+<td
+  className="p-2"
+>
+  1
+</td>
+`;

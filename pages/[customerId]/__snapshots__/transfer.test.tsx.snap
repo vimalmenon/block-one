@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transfer Page Table: Snapshot testing with Footer 1`] = `
+<Container
+  customer={
+    Object {
+      "address": "test Address",
+      "contactNo": "123-456-789",
+      "customerId": 12345,
+      "emailAddress": "test.value@test.com",
+      "name": "test value",
+      "prefix": "Mr",
+    }
+  }
+>
+  <MetaData
+    title="Transfer money between account for test value"
+  />
+  <div
+    className="my-6 mx-4 flex w-full flex-col"
+  >
+    <div
+      className="flex justify-center"
+    >
+      <AccountContainer
+        accounts={
+          Array [
+            Object {
+              "accountNumber": "12233344",
+              "accountType": "Saving Account",
+              "balance": 20000,
+              "customerId": 1234,
+            },
+          ]
+        }
+        isFromAccount={true}
+        onAccountSelect={[Function]}
+        setTransferAmount={[Function]}
+        title="From Account"
+      />
+      <div
+        className="flex w-6/12 flex-col"
+      />
+    </div>
+    <div
+      className="flex my-4 justify-between"
+    >
+      <Button
+        disabled={true}
+        onClick={[Function]}
+      >
+        Transfer Money
+      </Button>
+      <Button
+        onClick={[Function]}
+        type="secondary"
+      >
+        Go Back
+      </Button>
+    </div>
+  </div>
+</Container>
+`;

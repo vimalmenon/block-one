@@ -7,6 +7,7 @@ import { Button, MetaData } from '../../components'
 import { onLinkNavigation } from '../../utils'
 import React from 'react'
 import { AccountDetailProps } from './AccountDetail'
+import { GenericOnlyReturnMethodType } from '../../model/common'
 
 const Transfer: NextPage<AccountDetailProps> = ({ customer, accounts }) => {
   const router = useRouter()
@@ -29,7 +30,7 @@ const Transfer: NextPage<AccountDetailProps> = ({ customer, accounts }) => {
     setFromAccount(updateAccount[0])
     setToAccount(updateAccount[0])
   }, [accounts])
-  const isDisabled = () => {
+  const isDisabled: GenericOnlyReturnMethodType<boolean> = () => {
     return !(
       fromAccount?.balance &&
       toAccount.balance &&

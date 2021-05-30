@@ -1,4 +1,4 @@
-import { GetStaticProps, NextPage } from 'next'
+import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import { Container } from '../../partials'
 import { Button, Table, MetaData } from '../../components'
 import { CustomerParams } from '../../model/customer'
@@ -64,7 +64,7 @@ export const getStaticProps: GetStaticProps<AccountDetailProps> = async (context
   }
 }
 
-export const getStaticPaths = async () => {
+export const getStaticPaths: GetStaticPaths = async () => {
   const dataValue = await fetch(`http://localhost:3000/api/meta/customer`)
   const customers = (await dataValue.json()) as CustomerParams[]
 

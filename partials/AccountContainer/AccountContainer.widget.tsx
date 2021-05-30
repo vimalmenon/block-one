@@ -2,6 +2,7 @@ import { Select, Label, Input } from '../../components'
 import { AccountContainerProps } from './AccountContainer'
 import { convertCurrency } from '../../utils'
 import React from 'react'
+import { GenericMethodType, GenericOnlyReturnMethodType } from '../../model/common'
 
 export const AccountContainer: React.FC<AccountContainerProps> = ({
   title,
@@ -12,10 +13,10 @@ export const AccountContainer: React.FC<AccountContainerProps> = ({
   isFromAccount,
   setTransferAmount,
 }) => {
-  const onAmountUpdate = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const onAmountUpdate: GenericMethodType<React.ChangeEvent<HTMLInputElement>> = (e) => {
     setTransferAmount && setTransferAmount(parseInt(e.target.value))
   }
-  const onError = () => {
+  const onError: GenericOnlyReturnMethodType<boolean> = () => {
     return (selectedAccount?.balance || 0) < (transferAmount || 0) ? true : false
   }
   return (

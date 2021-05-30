@@ -1,4 +1,4 @@
-import { GetStaticPaths, GetStaticProps } from 'next'
+import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import { useRouter } from 'next/router'
 import { Container } from '../../../partials'
 import { Button, Table, MetaData } from '../../../components'
@@ -7,7 +7,7 @@ import { onLinkNavigation } from '../../../utils'
 import { AccountSummaryProps } from './AccountSummary'
 import { columns } from './AccountSummary.constants'
 
-const AccountSummary: React.FC<AccountSummaryProps> = ({ customer, transactions }) => {
+const AccountSummary: NextPage<AccountSummaryProps> = ({ customer, transactions }) => {
   const router = useRouter()
   const { customerId } = router.query
   const title = `Transaction details for ${customer.name}`

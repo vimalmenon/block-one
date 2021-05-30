@@ -10,7 +10,7 @@ exports[`BusinessLogo Component BusinessLogo: Snapshot testing 1`] = `
     FB
   </div>
   <div
-    className="text-sm self-center text-yellow-500"
+    className="text-sm self-center text-black-900"
   >
     Fictitious Bank
   </div>

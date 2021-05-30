@@ -2,7 +2,7 @@
 
 exports[`Button Component Button: Snapshot testing Primary Type 1`] = `
 <button
-  className="px-4 py-2 text-white focus:outline-none rounded-md bg-blue-500"
+  className="px-4 py-2 focus:outline-none rounded-md bg-blue-500 text-white"
   disabled={false}
   onClick={[Function]}
 />
@@ -10,7 +10,7 @@ exports[`Button Component Button: Snapshot testing Primary Type 1`] = `
 
 exports[`Button Component Button: Snapshot testing Secondary Type 1`] = `
 <button
-  className="px-4 py-2 text-white focus:outline-none rounded-md bg-yellow-500"
+  className="px-4 py-2 focus:outline-none rounded-md bg-yellow-300 text-black"
   disabled={false}
   onClick={[Function]}
 />
@@ -18,7 +18,7 @@ exports[`Button Component Button: Snapshot testing Secondary Type 1`] = `
 
 exports[`Button Component Button: Snapshot testing disabled 1`] = `
 <button
-  className="px-4 py-2 text-white focus:outline-none rounded-md bg-gray-600"
+  className="px-4 py-2 focus:outline-none rounded-md bg-gray-600 text-gray-200 "
   disabled={true}
   onClick={[Function]}
 />

@@ -14,12 +14,12 @@ const AccountSummary: NextPage<AccountSummaryProps> = ({ customer, transactions 
   return (
     <Container customer={customer}>
       <MetaData title={title} />
-      <div className="m-4 flex w-full flex-col">
+      <div className="m-4 flex w-full flex-col py-10">
         <Table columns={columns} items={transactions} />
         <div className="flex my-4 justify-between">
           <div></div>
           <Button type="secondary" onClick={() => onLinkNavigation(`/${customerId}`)}>
-            Go Back
+            Back
           </Button>
         </div>
       </div>

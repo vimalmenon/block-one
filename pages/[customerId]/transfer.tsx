@@ -44,7 +44,7 @@ const Transfer: NextPage<AccountDetailProps> = ({ customer, accounts }) => {
   return (
     <Container customer={customer}>
       <MetaData title={title} />
-      <div className="my-6 mx-4 flex w-full flex-col">
+      <div className="my-6 mx-4 flex w-full flex-col py-10">
         <div className="flex justify-center">
           <AccountContainer
             title="From Account"
@@ -87,10 +87,10 @@ const Transfer: NextPage<AccountDetailProps> = ({ customer, accounts }) => {
         </div>
         <div className="flex my-4 justify-between">
           <Button onClick={() => console.log('Transfer Money')} disabled={isDisabled()}>
-            Transfer Money
+            Transfer
           </Button>
           <Button type="secondary" onClick={() => onLinkNavigation(`/${customerId}`)}>
-            Go Back
+            Back
           </Button>
         </div>
       </div>

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountSummary Page AccountSummary: Snapshot testing 1`] = `
+<Container
+  customer={
+    Object {
+      "address": "test Address",
+      "contactNo": "123-456-789",
+      "customerId": 12345,
+      "emailAddress": "test.value@test.com",
+      "name": "test value",
+      "prefix": "Mr",
+    }
+  }
+>
+  <MetaData
+    title="Transaction details for test value"
+  />
+  <div
+    className="m-4 flex w-full flex-col py-10"
+  >
+    <Table
+      columns={
+        Array [
+          Object {
+            "accessor": "no",
+            "header": "No",
+            "template": [Function],
+          },
+          Object {
+            "accessor": "timestamp",
+            "header": "Timestamp",
+          },
+          Object {
+            "accessor": "action",
+            "header": "Action",
+          },
+          Object {
+            "accessor": "description",
+            "header": "Description",
+          },
+          Object {
+            "accessor": "amount",
+            "header": "Amount",
+            "template": [Function],
+          },
+          Object {
+            "accessor": "currency",
+            "header": "Currency",
+          },
+        ]
+      }
+      items={
+        Array [
+          Object {
+            "accountNumber": "122-333-445",
+            "action": "Debit",
+            "amount": 20000,
+            "currency": "HKD",
+            "description": "Test data 1",
+            "timestamp": "12 Dec 2020",
+          },
+          Object {
+            "accountNumber": "122-333-445",
+            "action": "Debit",
+            "amount": 25000,
+            "currency": "HKD",
+            "description": "Test data 2",
+            "timestamp": "12 Dec 2020",
+          },
+        ]
+      }
+    />
+    <div
+      className="flex my-4 justify-between"
+    >
+      <div />
+      <Button
+        onClick={[Function]}
+        type="secondary"
+      >
+        Back
+      </Button>
+    </div>
+  </div>
+</Container>
+`;

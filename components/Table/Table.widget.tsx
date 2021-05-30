@@ -28,7 +28,7 @@ export const TableFooter: React.FC<{ footers: FooterProps[] }> = ({ footers }) =
 
 export const Table: React.FC<TableProps> = ({ items, columns, footer, onRowClick }) => {
   return (
-    <table className="w-full rounded">
+    <table className="w-full rounded border border-blue-400">
       <thead>
         <tr className="bg-blue-500 text-white">
           {columns.map((column, key) => {

@@ -1,6 +1,6 @@
 export interface TransactionModel {
   accountNumber: string
-  timestamp: Date
+  timestamp: string
   action: string
   description: string
   amount: number

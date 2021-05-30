@@ -2,7 +2,7 @@
 
 exports[`Table Component Table: Snapshot testing with Footer 1`] = `
 <table
-  className="w-full rounded"
+  className="w-full rounded border border-blue-400"
 >
   <thead>
     <tr
@@ -120,7 +120,7 @@ exports[`Table Component Table: Snapshot testing with Footer 1`] = `
 
 exports[`Table Component Table: Snapshot testing without Footer 1`] = `
 <table
-  className="w-full rounded"
+  className="w-full rounded border border-blue-400"
 >
   <thead>
     <tr

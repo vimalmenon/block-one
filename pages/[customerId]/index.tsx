@@ -25,7 +25,7 @@ const AccountDetail: NextPage<AccountDetailProps> = ({ customer, accounts }) => 
   return (
     <Container customer={customer}>
       <MetaData title={title} />
-      <div className="m-4 flex w-full flex-col">
+      <div className="m-4 flex w-full flex-col py-10">
         <Table
           columns={columns}
           items={accounts}
@@ -36,10 +36,10 @@ const AccountDetail: NextPage<AccountDetailProps> = ({ customer, accounts }) => 
         />
         <div className="flex my-4 justify-between">
           <Button onClick={() => onLinkNavigation(`/${customerId}/transfer`)}>
-            Transfer Money
+            Transfer Funds
           </Button>
           <Button type="secondary" onClick={() => onLinkNavigation(`/`)}>
-            Go Back
+            Back
           </Button>
         </div>
       </div>

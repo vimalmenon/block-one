@@ -7,20 +7,18 @@ import { columns } from './CustomerSelect.constants'
 
 const CustomerSelect: React.FC<CustomerSelectProps> = ({ customers }) => {
   return (
-    <div className="flex flex-col h-screen">
+    <Container>
       <MetaData title="Fictitious Bank Application" />
-      <Container>
-        <div className="flex flex-col flex-auto my-5">
-          <div className="m-4 flex w-full">
-            <Table
-              columns={columns}
-              items={customers}
-              onRowClick={(item: CustomerModel) => onLinkNavigation(`/${item.customerId}`)}
-            />
-          </div>
+      <div className="flex flex-col flex-auto my-5">
+        <div className="m-4 flex w-full py-10">
+          <Table
+            columns={columns}
+            items={customers}
+            onRowClick={(item: CustomerModel) => onLinkNavigation(`/${item.customerId}`)}
+          />
         </div>
-      </Container>
-    </div>
+      </div>
+    </Container>
   )
 }
 

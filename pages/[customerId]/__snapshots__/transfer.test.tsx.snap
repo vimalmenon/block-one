@@ -17,7 +17,7 @@ exports[`Transfer Page Table: Snapshot testing with Footer 1`] = `
     title="Transfer money between account for test value"
   />
   <div
-    className="my-6 mx-4 flex w-full flex-col"
+    className="my-6 mx-4 flex w-full flex-col py-10"
   >
     <div
       className="flex justify-center"
@@ -49,13 +49,13 @@ exports[`Transfer Page Table: Snapshot testing with Footer 1`] = `
         disabled={true}
         onClick={[Function]}
       >
-        Transfer Money
+        Transfer
       </Button>
       <Button
         onClick={[Function]}
         type="secondary"
       >
-        Go Back
+        Back
       </Button>
     </div>
   </div>

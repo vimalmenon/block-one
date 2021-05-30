@@ -4,6 +4,8 @@ exports[`MetaData Component MetaData: Snapshot testing with title 1`] = `
 <Head>
   <title>
     title
+     - 
+    Fictitious Bank
   </title>
   <meta
     content="This is fictitious bank application"
@@ -16,6 +18,8 @@ exports[`MetaData Component MetaData: Snapshot testing with title and Descriptio
 <Head>
   <title>
     title
+     - 
+    Fictitious Bank
   </title>
   <meta
     content="description"

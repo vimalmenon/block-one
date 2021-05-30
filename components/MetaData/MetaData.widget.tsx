@@ -1,13 +1,15 @@
-import Head from 'next/head';
+import Head from 'next/head'
 
-import {MetaDataProps} from "./MetaData";
-import {defaultDescription} from "./MetaData.values";
+import { MetaDataProps } from './MetaData'
+import { defaultDescription, titleSufix } from './MetaData.values'
 
-export const MetaData:React.FC<MetaDataProps> = ({title, description=defaultDescription}) => {
-    return (
-        <Head>
-            <title>{title}</title>
-            <meta name="description" content={description} />
-        </Head>
-    );
-};
+export const MetaData: React.FC<MetaDataProps> = ({ title, description = defaultDescription }) => {
+  return (
+    <Head>
+      <title>
+        {title} - {titleSufix}
+      </title>
+      <meta name="description" content={description} />
+    </Head>
+  )
+}

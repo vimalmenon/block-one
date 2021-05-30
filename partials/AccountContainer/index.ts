@@ -1,1 +1,1 @@
-export * from "./AccountContainer.widget"
+export * from './AccountContainer.widget'

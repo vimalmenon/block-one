@@ -1,1 +1,1 @@
-export * from "./BusinessLogo.widget";
+export * from './BusinessLogo.widget'

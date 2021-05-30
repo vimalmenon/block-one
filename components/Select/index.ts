@@ -1,1 +1,1 @@
-export * from "./Select.widget";
+export * from './Select.widget'

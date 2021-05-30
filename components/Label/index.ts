@@ -1,1 +1,1 @@
-export * from "./Label.widget";
+export * from './Label.widget'

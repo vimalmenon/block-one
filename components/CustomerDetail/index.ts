@@ -1,1 +1,1 @@
-export * from "./CustomerDetail.widget";
+export * from './CustomerDetail.widget'

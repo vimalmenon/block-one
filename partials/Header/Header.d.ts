@@ -1,6 +1,5 @@
-import {CustomerModel} from "../../model/customer";
-
+import { CustomerModel } from '../../model/customer'
 
 export interface HeaderProps {
-    customer?: CustomerModel
+  customer?: CustomerModel
 }

@@ -1,3 +1,3 @@
-export const Label:React.FC = ({children}) => {
-    return (<label>{children}</label>)
+export const Label: React.FC = ({ children }) => {
+  return <label>{children}</label>
 }

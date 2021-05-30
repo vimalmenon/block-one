@@ -250,7 +250,7 @@ exports[`Table Component TableRow: Snapshot Testing with template 1`] = `
 <td
   className="p-2"
 >
-  2
+  1
 </td>
 `;
 

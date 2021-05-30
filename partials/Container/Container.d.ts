@@ -1,5 +1,5 @@
-import {CustomerModel} from "../../model/customer";
+import { CustomerModel } from '../../model/customer'
 
 export interface ContainerProps {
-    customer?:CustomerModel
+  customer?: CustomerModel
 }

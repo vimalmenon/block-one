@@ -1,5 +1,5 @@
-import {CustomerModel} from "../../model/customer";
+import { CustomerModel } from '../../model/customer'
 
 export interface CustomerDetailProps {
-    customer:CustomerModel
+  customer: CustomerModel
 }

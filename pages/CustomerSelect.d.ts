@@ -1,9 +1,7 @@
-import {CustomerModel} from "../model/customer";
+import { CustomerModel } from '../model/customer'
 
 export interface CustomerSelectProps {
-    customers:CustomerModel[]
+  customers: CustomerModel[]
 }
 
-export {
-    CustomerModel
-}
+export { CustomerModel }

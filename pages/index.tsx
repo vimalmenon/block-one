@@ -2,10 +2,10 @@ import { Container } from '../partials'
 import { Table, MetaData } from '../components'
 import { onLinkNavigation } from '../utils'
 import { CustomerSelectProps, CustomerModel } from './CustomerSelect'
-import { GetStaticProps } from 'next'
+import { GetStaticProps, NextPage } from 'next'
 import { columns } from './CustomerSelect.constants'
 
-const CustomerSelect: React.FC<CustomerSelectProps> = ({ customers }) => {
+const CustomerSelect: NextPage<CustomerSelectProps> = ({ customers }) => {
   return (
     <Container>
       <MetaData title="Fictitious Bank Application" />

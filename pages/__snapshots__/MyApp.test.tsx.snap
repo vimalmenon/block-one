@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyApp Page MyApp: Snapshot testing 1`] = `
+<Components
+  test="vimal"
+/>
+`;

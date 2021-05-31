@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Transfer Page Table: Snapshot testing with Footer 1`] = `
+exports[`Transfer Page Transfer: Snapshot testing 1`] = `
 <Container
   customer={
     Object {

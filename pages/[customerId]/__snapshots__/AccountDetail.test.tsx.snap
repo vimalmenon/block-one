@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountDetail Page AccountDetail: Snapshot testing 1`] = `
+<Container
+  customer={
+    Object {
+      "address": "test Address",
+      "contactNo": "123-456-789",
+      "customerId": 12345,
+      "emailAddress": "test.value@test.com",
+      "name": "test value",
+      "prefix": "Mr",
+    }
+  }
+>
+  <MetaData
+    title="Account Detail for test value - 12345"
+  />
+  <div
+    className="m-4 flex w-full flex-col py-10"
+  >
+    <Table
+      columns={
+        Array [
+          Object {
+            "accessor": "no",
+            "header": "No",
+            "template": [Function],
+          },
+          Object {
+            "accessor": "accountType",
+            "header": "Account Type",
+          },
+          Object {
+            "accessor": "accountNumber",
+            "header": "Account Number",
+          },
+          Object {
+            "accessor": "balance",
+            "header": "Balance",
+            "template": [Function],
+          },
+        ]
+      }
+      footer={
+        Array [
+          Object {
+            "colSpan": 3,
+            "value": "Total Balance",
+          },
+          Object {
+            "value": "20,000",
+          },
+        ]
+      }
+      items={
+        Array [
+          Object {
+            "accountNumber": "12233344",
+            "accountType": "Saving Account",
+            "balance": 20000,
+            "customerId": 1234,
+          },
+        ]
+      }
+      onRowClick={[Function]}
+    />
+    <div
+      className="flex my-4 justify-between"
+    >
+      <Button
+        onClick={[Function]}
+      >
+        Transfer Funds
+      </Button>
+      <Button
+        onClick={[Function]}
+        type="secondary"
+      >
+        Back
+      </Button>
+    </div>
+  </div>
+</Container>
+`;

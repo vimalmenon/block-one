@@ -3,7 +3,7 @@ import toJson from 'enzyme-to-json'
 import { AccountModel } from '../../model/account'
 import { CustomerModel } from '../../model/customer'
 
-import Transfer from './transfer'
+import AccountDetail from './index'
 
 jest.mock('next/router', () => ({
   useRouter: () => ({
@@ -13,8 +13,8 @@ jest.mock('next/router', () => ({
   }),
 }))
 
-describe('Transfer Page', () => {
-  test('Transfer: Snapshot testing', () => {
+describe('AccountDetail Page', () => {
+  test('AccountDetail: Snapshot testing', () => {
     const customer: CustomerModel = {
       prefix: 'Mr',
       name: 'test value',
@@ -32,7 +32,7 @@ describe('Transfer Page', () => {
         balance: 20000,
       },
     ]
-    const wrapper = shallow(<Transfer customer={customer} accounts={accounts} />)
+    const wrapper = shallow(<AccountDetail customer={customer} accounts={accounts} />)
     expect(toJson(wrapper)).toMatchSnapshot()
   })
 })

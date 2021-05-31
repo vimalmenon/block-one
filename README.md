@@ -24,6 +24,13 @@ Run below command
 yarn dev
 ```
 
+## Running Test
+Running Test
+
+```bash
+yarn test
+```
+
 ## Open Browser
 
 Open [http://localhost:3000](http://localhost:3000) to access the application.
@@ -31,10 +38,14 @@ Open [http://localhost:3000](http://localhost:3000) to access the application.
 
 
 ## Screenshots
+Landing Page
 ![Landing Page.](/images/landing-page.png "Landing Page.")
 
+Account Summary
 ![Account Summary.](/images/account-summary.png "Account Summary.")
 
+Fund Transfer
 ![Fund Transfer.](/images/fund-transfer.png "Fund Transfer.")
 
+Transaction Detail
 ![Transaction Detail.](/images/transaction-detail.png "Transaction Detail.")

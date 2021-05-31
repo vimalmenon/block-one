@@ -1,5 +1,5 @@
 
-# COVID-19 React Tracking Application
+# Fictitious Bank (FB) Application
 
 This is Fictitious Bank application built using NextJS in React.js with typescript.
 

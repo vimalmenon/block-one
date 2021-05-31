@@ -35,10 +35,10 @@ const AccountDetail: NextPage<AccountDetailProps> = ({ customer, accounts }) => 
           }
         />
         <div className="flex my-4 justify-between">
-          <Button onClick={() => onLinkNavigation(`/${customerId}/transfer`)}>
+          <Button data-testid="transfer-funds" onClick={() => onLinkNavigation(`/${customerId}/transfer`)}>
             Transfer Funds
           </Button>
-          <Button type="secondary" onClick={() => onLinkNavigation(`/`)}>
+          <Button data-testid="back" type="secondary" onClick={() => onLinkNavigation(`/`)}>
             Back
           </Button>
         </div>

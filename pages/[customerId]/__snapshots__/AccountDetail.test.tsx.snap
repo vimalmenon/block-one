@@ -49,7 +49,7 @@ exports[`AccountDetail Page AccountDetail: Snapshot testing 1`] = `
             "value": "Total Balance",
           },
           Object {
-            "value": "20,000",
+            "value": undefined,
           },
         ]
       }
@@ -69,11 +69,13 @@ exports[`AccountDetail Page AccountDetail: Snapshot testing 1`] = `
       className="flex my-4 justify-between"
     >
       <Button
+        data-testid="transfer-funds"
         onClick={[Function]}
       >
         Transfer Funds
       </Button>
       <Button
+        data-testid="back"
         onClick={[Function]}
         type="secondary"
       >

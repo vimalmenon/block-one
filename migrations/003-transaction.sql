@@ -10,41 +10,40 @@ CREATE TABLE transactions (
 );
 
 
+INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-789', '13 Dec 2020', "Credit", "***-789 Received credit", 800 , 'HKD');
+
 INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-789', '12 Dec 2020', "Debit", "***-789 AWS transaction Bill", -200 , 'HKD');
 
 INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-789', '12 Dec 2020', "Debit", "***-789 Paid for purchase", -800 , 'HKD');
-
-INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-789', '13 Dec 2020', "Credit", "***-789 Received credit", 800 , 'HKD');
 
 INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-789', '1 Dec 2020', "Credit", "***-789 Received salary", 1000 , 'USD');
 
 
 
+INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-788', '13 Dec 2020', "Credit", "***-788 Received credit", 500 , 'HKD');
+
 INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-788', '12 Dec 2020', "Debit", "***-788 Random Bill", -500 , 'HKD');
 
 INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-788', '12 Dec 2020', "Debit", "***-788 Paid for purchase", -200 , 'HKD');
-
-INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-788', '13 Dec 2020', "Credit", "***-788 Received credit", 500 , 'HKD');
 
 INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-788', '1 Dec 2020', "Credit", "***-788 Received salary", 800 , 'USD');
 
 
 
+INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-787', '13 Dec 2020', "Credit", "***-787 Received credit", 500 , 'HKD');
+
 INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-787', '12 Dec 2020', "Debit", "***-787 Random Bill", -500 , 'HKD');
 
 INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-787', '12 Dec 2020', "Debit", "***-787 Paid for purchase", -200 , 'HKD');
 
-INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-787', '13 Dec 2020', "Credit", "***-787 Received credit", 500 , 'HKD');
-
 INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-787', '1 Dec 2020', "Credit", "***-787 Received salary", 800 , 'USD');
 
 
+INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-786', '13 Dec 2020', "Credit", "***-786 Received credit", 500 , 'HKD');
 
 INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-786', '12 Dec 2020', "Debit", "***-786 Random Bill", -500 , 'HKD');
 
 INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-786', '12 Dec 2020', "Debit", "***-786 Paid for purchase", -200 , 'HKD');
-
-INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-786', '13 Dec 2020', "Credit", "***-786 Received credit", 500 , 'HKD');
 
 INSERT INTO transactions (account_number, timestamp, action, description, amount, currency) values ('123-456-786', '1 Dec 2020', "Credit", "***-786 Received salary", 800 , 'USD');
 

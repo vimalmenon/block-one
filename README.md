@@ -1,7 +1,7 @@
 
 # Fictitious Bank (FB) Application
 
-This is a Fictitious Bank application built using Next.js in React with typescript, tailwindcss for styling and sqlite as database.
+This is a Fictitious Bank application built using Next.js in React with typescript, tailwindcss for styling and SQLite as database.
 
 ## Package Installation
 Install npm packages:

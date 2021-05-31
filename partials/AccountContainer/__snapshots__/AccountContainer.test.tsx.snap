@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountContainer Testing AccountContainer : Snapshot testing 1`] = `
+<div
+  className="flex w-5/12 flex-col border shadow"
+>
+  <div
+    className="flex h-20 text-3xl items-center justify-center"
+  >
+    From Account
+  </div>
+  <div
+    className="flex flex-col"
+  >
+    <div
+      className="w-full flex p-4"
+    >
+      <div
+        className="flex w-1/3"
+      >
+        <Label>
+          Select an account
+        </Label>
+      </div>
+      <div
+        className="flex w-2/3"
+      >
+        <Select
+          items={
+            Array [
+              Object {
+                "accountNumber": "12233344",
+                "accountType": "Saving Account",
+                "balance": 20000,
+                "customerId": 1234,
+              },
+            ]
+          }
+          nameProps="accountNumber"
+          onChange={[Function]}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AccountContainer Testing AccountContainer : Snapshot testing with selectedAccount 1`] = `
+<div
+  className="flex w-5/12 flex-col border shadow"
+>
+  <div
+    className="flex h-20 text-3xl items-center justify-center"
+  >
+    From Account
+  </div>
+  <div
+    className="flex flex-col"
+  >
+    <div
+      className="w-full flex p-4"
+    >
+      <div
+        className="flex w-1/3"
+      >
+        <Label>
+          Select an account
+        </Label>
+      </div>
+      <div
+        className="flex w-2/3"
+      >
+        <Select
+          items={
+            Array [
+              Object {
+                "accountNumber": "12233344",
+                "accountType": "Saving Account",
+                "balance": 20000,
+                "customerId": 1234,
+              },
+            ]
+          }
+          nameProps="accountNumber"
+          onChange={[Function]}
+          value="{\\"customerId\\":1234,\\"accountNumber\\":\\"12233344\\",\\"accountType\\":\\"Saving Account\\",\\"balance\\":20000}"
+        />
+      </div>
+    </div>
+    <div
+      className="w-full flex p-4"
+    >
+      <div
+        className="flex w-1/3"
+      >
+        <Label>
+          Account details
+        </Label>
+      </div>
+      <div
+        className="flex w-2/3"
+      >
+        Saving Account
+      </div>
+    </div>
+    <div
+      className="w-full flex p-4"
+    >
+      <div
+        className="flex w-1/3"
+      >
+        <Label>
+          Account balance
+        </Label>
+      </div>
+      <div
+        className="flex w-2/3"
+      >
+        20,000
+      </div>
+    </div>
+    <div
+      className="w-full flex p-4"
+    >
+      <div
+        className="flex w-1/3"
+      >
+        <Label>
+          Amount
+        </Label>
+      </div>
+      <div
+        className="flex w-2/3"
+      >
+        <Input
+          error={false}
+          onChange={[Function]}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AccountContainer Testing AccountContainer : Snapshot testing with selectedAccount and transferAmount 1`] = `
+<div
+  className="flex w-5/12 flex-col border shadow"
+>
+  <div
+    className="flex h-20 text-3xl items-center justify-center"
+  >
+    From Account
+  </div>
+  <div
+    className="flex flex-col"
+  >
+    <div
+      className="w-full flex p-4"
+    >
+      <div
+        className="flex w-1/3"
+      >
+        <Label>
+          Select an account
+        </Label>
+      </div>
+      <div
+        className="flex w-2/3"
+      >
+        <Select
+          items={
+            Array [
+              Object {
+                "accountNumber": "12233344",
+                "accountType": "Saving Account",
+                "balance": 20000,
+                "customerId": 1234,
+              },
+            ]
+          }
+          nameProps="accountNumber"
+          onChange={[Function]}
+          value="{\\"customerId\\":1234,\\"accountNumber\\":\\"12233344\\",\\"accountType\\":\\"Saving Account\\",\\"balance\\":20000}"
+        />
+      </div>
+    </div>
+    <div
+      className="w-full flex p-4"
+    >
+      <div
+        className="flex w-1/3"
+      >
+        <Label>
+          Account details
+        </Label>
+      </div>
+      <div
+        className="flex w-2/3"
+      >
+        Saving Account
+      </div>
+    </div>
+    <div
+      className="w-full flex p-4"
+    >
+      <div
+        className="flex w-1/3"
+      >
+        <Label>
+          Account balance
+        </Label>
+      </div>
+      <div
+        className="flex w-2/3"
+      >
+        20,000
+      </div>
+    </div>
+    <div
+      className="w-full flex p-4"
+    >
+      <div
+        className="flex w-1/3"
+      >
+        <Label>
+          Updated balance
+        </Label>
+      </div>
+      <div
+        className="flex w-2/3"
+      >
+        22000
+      </div>
+    </div>
+  </div>
+</div>
+`;

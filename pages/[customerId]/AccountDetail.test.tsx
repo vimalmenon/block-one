@@ -2,7 +2,7 @@ import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import { AccountModel } from '../../model/account'
 import { CustomerModel } from '../../model/customer'
-import { onLinkNavigation , convertCurrency} from '../../utils'
+import { onLinkNavigation, convertCurrency } from '../../utils'
 
 import AccountDetail from './index'
 
@@ -16,7 +16,7 @@ jest.mock('next/router', () => ({
 
 jest.mock('../../utils', () => ({
   onLinkNavigation: jest.fn(),
-  convertCurrency:jest.fn()
+  convertCurrency: jest.fn(),
 }))
 
 describe('AccountDetail Page', () => {
@@ -60,8 +60,8 @@ describe('AccountDetail Page', () => {
       },
     ]
     const wrapper = shallow(<AccountDetail customer={customer} accounts={accounts} />)
-    wrapper.find('[data-testid="transfer-funds"]').simulate("click");
-    expect(onLinkNavigation).toHaveBeenCalled();
+    wrapper.find('[data-testid="transfer-funds"]').simulate('click')
+    expect(onLinkNavigation).toHaveBeenCalled()
     expect(onLinkNavigation).toHaveBeenCalledWith(`/12345/transfer`)
   })
   test('AccountDetail: Transfer Back Button click', () => {
@@ -83,8 +83,8 @@ describe('AccountDetail Page', () => {
       },
     ]
     const wrapper = shallow(<AccountDetail customer={customer} accounts={accounts} />)
-    wrapper.find('[data-testid="back"]').simulate("click");
-    expect(onLinkNavigation).toHaveBeenCalled();
+    wrapper.find('[data-testid="back"]').simulate('click')
+    expect(onLinkNavigation).toHaveBeenCalled()
     expect(onLinkNavigation).toHaveBeenCalledWith(`/`)
   })
   test('AccountDetail: convertCurrency utility method called', () => {
@@ -105,8 +105,8 @@ describe('AccountDetail Page', () => {
         balance: 20000,
       },
     ]
-    const wrapper = shallow(<AccountDetail customer={customer} accounts={accounts} />)
-    expect(convertCurrency).toHaveBeenCalled();
+    shallow(<AccountDetail customer={customer} accounts={accounts} />)
+    expect(convertCurrency).toHaveBeenCalled()
     expect(convertCurrency).toHaveBeenCalledWith(20000)
   })
 })

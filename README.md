@@ -10,14 +10,14 @@ Install npm packages:
 yarn install
 ```
 
-## Database initialization
+## Database Initialization
 Initilize database
 
 ```bash
 yarn database
 ```
 
-## Start server
+## Start Server
 
 Run below command
 ```sh
@@ -32,3 +32,9 @@ Open [http://localhost:3000](http://localhost:3000) to access the application.
 
 ## Screenshots
 ![Landing Page.](/images/landing-page.png "Landing Page.")
+
+![Account Summary.](/images/account-summary.png "Account Summary.")
+
+![Fund Transfer.](/images/fund-transfer.png "Fund Transfer.")
+
+![Transaction Detail.](/images/transaction-detail.png "Transaction Detail.")

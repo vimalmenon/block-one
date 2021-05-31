@@ -25,16 +25,24 @@ yarn dev
 ```
 
 ## Running Test
-Running Test
+Running Test (Not Required)
 
 ```bash
 yarn test
 ```
 
+
+
 ## Open Browser
 
 Open [http://localhost:3000](http://localhost:3000) to access the application.
 
+
+## How to start the application
+1) Package Installation
+2) Initilize database
+3) Start Server
+4) Open http://localhost:3000
 
 
 ## Screenshots

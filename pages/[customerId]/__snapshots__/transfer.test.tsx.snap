@@ -46,12 +46,123 @@ exports[`Transfer Page Transfer: Snapshot testing 1`] = `
       className="flex my-4 justify-between"
     >
       <Button
+        data-testid="transfer"
         disabled={true}
         onClick={[Function]}
       >
         Transfer
       </Button>
       <Button
+        data-testid="back"
+        onClick={[Function]}
+        type="secondary"
+      >
+        Back
+      </Button>
+    </div>
+  </div>
+</Container>
+`;
+
+exports[`Transfer Page Transfer: Snapshot testing with fromAccount 1`] = `
+<Container
+  customer={
+    Object {
+      "address": "test Address",
+      "contactNo": "123-456-789",
+      "customerId": 12345,
+      "emailAddress": "test.value@test.com",
+      "name": "test value",
+      "prefix": "Mr",
+    }
+  }
+>
+  <MetaData
+    title="Transfer money between account for test value"
+  />
+  <div
+    className="my-6 mx-4 flex w-full flex-col py-10"
+  >
+    <div
+      className="flex justify-center"
+    >
+      <AccountContainer
+        accounts={
+          Array [
+            Object {
+              "accountNumber": "12233344",
+              "accountType": "Saving Account",
+              "balance": 20000,
+              "customerId": 1234,
+            },
+          ]
+        }
+        isFromAccount={true}
+        onAccountSelect={[Function]}
+        selectedAccount={
+          Object {
+            "accountNumber": "12233344",
+            "accountType": "Saving Account",
+            "balance": 20000,
+            "customerId": 1234,
+          }
+        }
+        setTransferAmount={[Function]}
+        title="From Account"
+      />
+      <div
+        className="flex w-1/12 flex-col items-center justify-center"
+      >
+        <svg
+          className="h-6 w-6 text-blue-500"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+          />
+        </svg>
+      </div>
+      <AccountContainer
+        accounts={
+          Array [
+            Object {
+              "accountNumber": "12233344",
+              "accountType": "Saving Account",
+              "balance": 20000,
+              "customerId": 1234,
+            },
+          ]
+        }
+        onAccountSelect={[Function]}
+        selectedAccount={
+          Object {
+            "accountNumber": "12233344",
+            "accountType": "Saving Account",
+            "balance": 20000,
+            "customerId": 1234,
+          }
+        }
+        title="To Account"
+      />
+    </div>
+    <div
+      className="flex my-4 justify-between"
+    >
+      <Button
+        data-testid="transfer"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Transfer
+      </Button>
+      <Button
+        data-testid="back"
         onClick={[Function]}
         type="secondary"
       >

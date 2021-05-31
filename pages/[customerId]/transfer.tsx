@@ -86,10 +86,18 @@ const Transfer: NextPage<AccountDetailProps> = ({ customer, accounts }) => {
           )}
         </div>
         <div className="flex my-4 justify-between">
-          <Button onClick={() => console.log('Transfer Money')} disabled={isDisabled()}>
+          <Button
+            data-testid="transfer"
+            onClick={() => onLinkNavigation(`/${customerId}`)}
+            disabled={isDisabled()}
+          >
             Transfer
           </Button>
-          <Button type="secondary" onClick={() => onLinkNavigation(`/${customerId}`)}>
+          <Button
+            data-testid="back"
+            type="secondary"
+            onClick={() => onLinkNavigation(`/${customerId}`)}
+          >
             Back
           </Button>
         </div>

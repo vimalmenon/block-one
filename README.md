@@ -25,8 +25,7 @@ yarn dev
 ```
 
 ## Running Test
-Running Test (Not Required)
-
+Running Test
 ```bash
 yarn test
 ```

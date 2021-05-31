@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerSelect Page CustomerSelect: Snapshot testing 1`] = `
+<Container>
+  <MetaData
+    title="Fictitious Bank Application"
+  />
+  <div
+    className="flex flex-col flex-auto my-5"
+  >
+    <div
+      className="m-4 flex w-full py-10"
+    >
+      <Table
+        columns={
+          Array [
+            Object {
+              "accessor": "no",
+              "header": "No",
+              "template": [Function],
+            },
+            Object {
+              "accessor": "prefix",
+              "header": "Prefix",
+            },
+            Object {
+              "accessor": "name",
+              "header": "Name",
+            },
+            Object {
+              "accessor": "customerId",
+              "header": "Customer Id",
+            },
+            Object {
+              "accessor": "contactNo",
+              "header": "Contact No",
+            },
+            Object {
+              "accessor": "emailAddress",
+              "header": "Email Address",
+            },
+            Object {
+              "accessor": "address",
+              "header": "Address",
+            },
+          ]
+        }
+        items={
+          Array [
+            Object {
+              "address": "test Address",
+              "contactNo": "123-456-789",
+              "customerId": 12345,
+              "emailAddress": "test.value@test.com",
+              "name": "test value",
+              "prefix": "Mr",
+            },
+            Object {
+              "address": "test Address1",
+              "contactNo": "123-456-906",
+              "customerId": 12346,
+              "emailAddress": "test.value1@test.com",
+              "name": "test value 1",
+              "prefix": "Mrs",
+            },
+          ]
+        }
+        onRowClick={[Function]}
+      />
+    </div>
+  </div>
+</Container>
+`;
